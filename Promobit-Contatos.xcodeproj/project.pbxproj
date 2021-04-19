@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9466357D262DE4C200F848B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466357C262DE4C200F848B8 /* AppDelegate.swift */; };
+		9466357F262DE4C200F848B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466357E262DE4C200F848B8 /* SceneDelegate.swift */; };
+		94663581262DE4C200F848B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94663580262DE4C200F848B8 /* ViewController.swift */; };
+		94663584262DE4C200F848B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94663582262DE4C200F848B8 /* Main.storyboard */; };
+		94663586262DE4CB00F848B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94663585262DE4CB00F848B8 /* Assets.xcassets */; };
+		94663589262DE4CB00F848B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94663587262DE4CB00F848B8 /* LaunchScreen.storyboard */; };
+		94663594262DE4CB00F848B8 /* Promobit_ContatosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94663593262DE4CB00F848B8 /* Promobit_ContatosTests.swift */; };
+		9466359F262DE4CB00F848B8 /* Promobit_ContatosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466359E262DE4CB00F848B8 /* Promobit_ContatosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94663590262DE4CB00F848B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94663571262DE4C200F848B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94663578262DE4C200F848B8;
+			remoteInfo = "Promobit-Contatos";
+		};
+		9466359B262DE4CB00F848B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94663571262DE4C200F848B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94663578262DE4C200F848B8;
+			remoteInfo = "Promobit-Contatos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94663579262DE4C200F848B8 /* Promobit-Contatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promobit-Contatos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9466357C262DE4C200F848B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9466357E262DE4C200F848B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94663580262DE4C200F848B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94663583262DE4C200F848B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94663585262DE4CB00F848B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94663588262DE4CB00F848B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9466358A262DE4CB00F848B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9466358F262DE4CB00F848B8 /* Promobit-ContatosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promobit-ContatosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94663593262DE4CB00F848B8 /* Promobit_ContatosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promobit_ContatosTests.swift; sourceTree = "<group>"; };
+		94663595262DE4CB00F848B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9466359A262DE4CB00F848B8 /* Promobit-ContatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promobit-ContatosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9466359E262DE4CB00F848B8 /* Promobit_ContatosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promobit_ContatosUITests.swift; sourceTree = "<group>"; };
+		946635A0262DE4CB00F848B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94663576262DE4C200F848B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466358C262DE4CB00F848B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94663597262DE4CB00F848B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94663570262DE4C200F848B8 = {
+			isa = PBXGroup;
+			children = (
+				9466357B262DE4C200F848B8 /* Promobit-Contatos */,
+				94663592262DE4CB00F848B8 /* Promobit-ContatosTests */,
+				9466359D262DE4CB00F848B8 /* Promobit-ContatosUITests */,
+				9466357A262DE4C200F848B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9466357A262DE4C200F848B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94663579262DE4C200F848B8 /* Promobit-Contatos.app */,
+				9466358F262DE4CB00F848B8 /* Promobit-ContatosTests.xctest */,
+				9466359A262DE4CB00F848B8 /* Promobit-ContatosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9466357B262DE4C200F848B8 /* Promobit-Contatos */ = {
+			isa = PBXGroup;
+			children = (
+				9466357C262DE4C200F848B8 /* AppDelegate.swift */,
+				9466357E262DE4C200F848B8 /* SceneDelegate.swift */,
+				94663580262DE4C200F848B8 /* ViewController.swift */,
+				94663582262DE4C200F848B8 /* Main.storyboard */,
+				94663585262DE4CB00F848B8 /* Assets.xcassets */,
+				94663587262DE4CB00F848B8 /* LaunchScreen.storyboard */,
+				9466358A262DE4CB00F848B8 /* Info.plist */,
+			);
+			path = "Promobit-Contatos";
+			sourceTree = "<group>";
+		};
+		94663592262DE4CB00F848B8 /* Promobit-ContatosTests */ = {
+			isa = PBXGroup;
+			children = (
+				94663593262DE4CB00F848B8 /* Promobit_ContatosTests.swift */,
+				94663595262DE4CB00F848B8 /* Info.plist */,
+			);
+			path = "Promobit-ContatosTests";
+			sourceTree = "<group>";
+		};
+		9466359D262DE4CB00F848B8 /* Promobit-ContatosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9466359E262DE4CB00F848B8 /* Promobit_ContatosUITests.swift */,
+				946635A0262DE4CB00F848B8 /* Info.plist */,
+			);
+			path = "Promobit-ContatosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94663578262DE4C200F848B8 /* Promobit-Contatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946635A3262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-Contatos" */;
+			buildPhases = (
+				94663575262DE4C200F848B8 /* Sources */,
+				94663576262DE4C200F848B8 /* Frameworks */,
+				94663577262DE4C200F848B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Promobit-Contatos";
+			productName = "Promobit-Contatos";
+			productReference = 94663579262DE4C200F848B8 /* Promobit-Contatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9466358E262DE4CB00F848B8 /* Promobit-ContatosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946635A6262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-ContatosTests" */;
+			buildPhases = (
+				9466358B262DE4CB00F848B8 /* Sources */,
+				9466358C262DE4CB00F848B8 /* Frameworks */,
+				9466358D262DE4CB00F848B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94663591262DE4CB00F848B8 /* PBXTargetDependency */,
+			);
+			name = "Promobit-ContatosTests";
+			productName = "Promobit-ContatosTests";
+			productReference = 9466358F262DE4CB00F848B8 /* Promobit-ContatosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94663599262DE4CB00F848B8 /* Promobit-ContatosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946635A9262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-ContatosUITests" */;
+			buildPhases = (
+				94663596262DE4CB00F848B8 /* Sources */,
+				94663597262DE4CB00F848B8 /* Frameworks */,
+				94663598262DE4CB00F848B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9466359C262DE4CB00F848B8 /* PBXTargetDependency */,
+			);
+			name = "Promobit-ContatosUITests";
+			productName = "Promobit-ContatosUITests";
+			productReference = 9466359A262DE4CB00F848B8 /* Promobit-ContatosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94663571262DE4C200F848B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					94663578262DE4C200F848B8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9466358E262DE4CB00F848B8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 94663578262DE4C200F848B8;
+					};
+					94663599262DE4CB00F848B8 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 94663578262DE4C200F848B8;
+					};
+				};
+			};
+			buildConfigurationList = 94663574262DE4C200F848B8 /* Build configuration list for PBXProject "Promobit-Contatos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94663570262DE4C200F848B8;
+			productRefGroup = 9466357A262DE4C200F848B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94663578262DE4C200F848B8 /* Promobit-Contatos */,
+				9466358E262DE4CB00F848B8 /* Promobit-ContatosTests */,
+				94663599262DE4CB00F848B8 /* Promobit-ContatosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94663577262DE4C200F848B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94663589262DE4CB00F848B8 /* LaunchScreen.storyboard in Resources */,
+				94663586262DE4CB00F848B8 /* Assets.xcassets in Resources */,
+				94663584262DE4C200F848B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466358D262DE4CB00F848B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94663598262DE4CB00F848B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94663575262DE4C200F848B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94663581262DE4C200F848B8 /* ViewController.swift in Sources */,
+				9466357D262DE4C200F848B8 /* AppDelegate.swift in Sources */,
+				9466357F262DE4C200F848B8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466358B262DE4CB00F848B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94663594262DE4CB00F848B8 /* Promobit_ContatosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94663596262DE4CB00F848B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9466359F262DE4CB00F848B8 /* Promobit_ContatosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94663591262DE4CB00F848B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94663578262DE4C200F848B8 /* Promobit-Contatos */;
+			targetProxy = 94663590262DE4CB00F848B8 /* PBXContainerItemProxy */;
+		};
+		9466359C262DE4CB00F848B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94663578262DE4C200F848B8 /* Promobit-Contatos */;
+			targetProxy = 9466359B262DE4CB00F848B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94663582262DE4C200F848B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94663583262DE4C200F848B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94663587262DE4CB00F848B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94663588262DE4CB00F848B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946635A1262DE4CB00F848B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		946635A2262DE4CB00F848B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946635A4262DE4CB00F848B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Promobit-Contatos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-Contatos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		946635A5262DE4CB00F848B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Promobit-Contatos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-Contatos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		946635A7262DE4CB00F848B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Promobit-ContatosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-ContatosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Promobit-Contatos.app/Promobit-Contatos";
+			};
+			name = Debug;
+		};
+		946635A8262DE4CB00F848B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Promobit-ContatosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-ContatosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Promobit-Contatos.app/Promobit-Contatos";
+			};
+			name = Release;
+		};
+		946635AA262DE4CB00F848B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Promobit-ContatosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-ContatosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Promobit-Contatos";
+			};
+			name = Debug;
+		};
+		946635AB262DE4CB00F848B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Promobit-ContatosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-ContatosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Promobit-Contatos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94663574262DE4C200F848B8 /* Build configuration list for PBXProject "Promobit-Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946635A1262DE4CB00F848B8 /* Debug */,
+				946635A2262DE4CB00F848B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946635A3262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-Contatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946635A4262DE4CB00F848B8 /* Debug */,
+				946635A5262DE4CB00F848B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946635A6262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-ContatosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946635A7262DE4CB00F848B8 /* Debug */,
+				946635A8262DE4CB00F848B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946635A9262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-ContatosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946635AA262DE4CB00F848B8 /* Debug */,
+				946635AB262DE4CB00F848B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94663571262DE4C200F848B8 /* Project object */;
+}
