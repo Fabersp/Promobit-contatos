@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D5E2E3A8CB5B970886216A /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58242E67B6E007C5730DD58 /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework */; };
+		29B8E9CDC6B1CD9FD1F08F28 /* Pods_Promobit_ContatosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CF261EC9C6846D3CDEB9A9 /* Pods_Promobit_ContatosTests.framework */; };
 		9466357D262DE4C200F848B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466357C262DE4C200F848B8 /* AppDelegate.swift */; };
 		9466357F262DE4C200F848B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466357E262DE4C200F848B8 /* SceneDelegate.swift */; };
 		94663581262DE4C200F848B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94663580262DE4C200F848B8 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		94663589262DE4CB00F848B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94663587262DE4CB00F848B8 /* LaunchScreen.storyboard */; };
 		94663594262DE4CB00F848B8 /* Promobit_ContatosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94663593262DE4CB00F848B8 /* Promobit_ContatosTests.swift */; };
 		9466359F262DE4CB00F848B8 /* Promobit_ContatosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466359E262DE4CB00F848B8 /* Promobit_ContatosUITests.swift */; };
+		BD62543F0BE3178E8FED4341 /* Pods_Promobit_Contatos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA68691A89D56B7AF89F419 /* Pods_Promobit_Contatos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		438EA22BB9E66859A696D15E /* Pods-Promobit-Contatos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-Contatos.debug.xcconfig"; path = "Target Support Files/Pods-Promobit-Contatos/Pods-Promobit-Contatos.debug.xcconfig"; sourceTree = "<group>"; };
+		490421A97565A22188D30B49 /* Pods-Promobit-Contatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-Contatos.release.xcconfig"; path = "Target Support Files/Pods-Promobit-Contatos/Pods-Promobit-Contatos.release.xcconfig"; sourceTree = "<group>"; };
+		57D7B2E4022FD3ACA5E8566D /* Pods-Promobit-Contatos-Promobit-ContatosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-Contatos-Promobit-ContatosUITests.release.xcconfig"; path = "Target Support Files/Pods-Promobit-Contatos-Promobit-ContatosUITests/Pods-Promobit-Contatos-Promobit-ContatosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68CF261EC9C6846D3CDEB9A9 /* Pods_Promobit_ContatosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promobit_ContatosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A728020C3D896FD704E554F /* Pods-Promobit-ContatosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-ContatosTests.debug.xcconfig"; path = "Target Support Files/Pods-Promobit-ContatosTests/Pods-Promobit-ContatosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA68691A89D56B7AF89F419 /* Pods_Promobit_Contatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promobit_Contatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93430D638CCB5022DBFEDB21 /* Pods-Promobit-ContatosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-ContatosTests.release.xcconfig"; path = "Target Support Files/Pods-Promobit-ContatosTests/Pods-Promobit-ContatosTests.release.xcconfig"; sourceTree = "<group>"; };
 		94663579262DE4C200F848B8 /* Promobit-Contatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promobit-Contatos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466357C262DE4C200F848B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9466357E262DE4C200F848B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		9466359A262DE4CB00F848B8 /* Promobit-ContatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promobit-ContatosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466359E262DE4CB00F848B8 /* Promobit_ContatosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promobit_ContatosUITests.swift; sourceTree = "<group>"; };
 		946635A0262DE4CB00F848B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58242E67B6E007C5730DD58 /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promobit_Contatos_Promobit_ContatosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F6F290F63A857D60EB2039 /* Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Promobit-Contatos-Promobit-ContatosUITests/Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD62543F0BE3178E8FED4341 /* Pods_Promobit_Contatos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B8E9CDC6B1CD9FD1F08F28 /* Pods_Promobit_ContatosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D5E2E3A8CB5B970886216A /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				94663592262DE4CB00F848B8 /* Promobit-ContatosTests */,
 				9466359D262DE4CB00F848B8 /* Promobit-ContatosUITests */,
 				9466357A262DE4C200F848B8 /* Products */,
+				DFBC958EFADAA97E5B9EC808 /* Pods */,
+				C3B2DA974C051733E7A24256 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = "Promobit-ContatosUITests";
 			sourceTree = "<group>";
 		};
+		C3B2DA974C051733E7A24256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BA68691A89D56B7AF89F419 /* Pods_Promobit_Contatos.framework */,
+				C58242E67B6E007C5730DD58 /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework */,
+				68CF261EC9C6846D3CDEB9A9 /* Pods_Promobit_ContatosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFBC958EFADAA97E5B9EC808 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				438EA22BB9E66859A696D15E /* Pods-Promobit-Contatos.debug.xcconfig */,
+				490421A97565A22188D30B49 /* Pods-Promobit-Contatos.release.xcconfig */,
+				F6F6F290F63A857D60EB2039 /* Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig */,
+				57D7B2E4022FD3ACA5E8566D /* Pods-Promobit-Contatos-Promobit-ContatosUITests.release.xcconfig */,
+				6A728020C3D896FD704E554F /* Pods-Promobit-ContatosTests.debug.xcconfig */,
+				93430D638CCB5022DBFEDB21 /* Pods-Promobit-ContatosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 946635A3262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-Contatos" */;
 			buildPhases = (
+				6DB3E16BB63AAB3573661D67 /* [CP] Check Pods Manifest.lock */,
 				94663575262DE4C200F848B8 /* Sources */,
 				94663576262DE4C200F848B8 /* Frameworks */,
 				94663577262DE4C200F848B8 /* Resources */,
+				CE9EE8973C78058C10BDCCF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 946635A6262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-ContatosTests" */;
 			buildPhases = (
+				7E6523809172BC4D1432A002 /* [CP] Check Pods Manifest.lock */,
 				9466358B262DE4CB00F848B8 /* Sources */,
 				9466358C262DE4CB00F848B8 /* Frameworks */,
 				9466358D262DE4CB00F848B8 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 946635A9262DE4CB00F848B8 /* Build configuration list for PBXNativeTarget "Promobit-ContatosUITests" */;
 			buildPhases = (
+				3D8F72BD5EE0660740D738D3 /* [CP] Check Pods Manifest.lock */,
 				94663596262DE4CB00F848B8 /* Sources */,
 				94663597262DE4CB00F848B8 /* Frameworks */,
 				94663598262DE4CB00F848B8 /* Resources */,
+				2F5434F5943B7AAF509ED7BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F5434F5943B7AAF509ED7BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promobit-Contatos-Promobit-ContatosUITests/Pods-Promobit-Contatos-Promobit-ContatosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promobit-Contatos-Promobit-ContatosUITests/Pods-Promobit-Contatos-Promobit-ContatosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Promobit-Contatos-Promobit-ContatosUITests/Pods-Promobit-Contatos-Promobit-ContatosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8F72BD5EE0660740D738D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Promobit-Contatos-Promobit-ContatosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB3E16BB63AAB3573661D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Promobit-Contatos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6523809172BC4D1432A002 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Promobit-ContatosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE9EE8973C78058C10BDCCF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promobit-Contatos/Pods-Promobit-Contatos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Promobit-Contatos/Pods-Promobit-Contatos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Promobit-Contatos/Pods-Promobit-Contatos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94663575262DE4C200F848B8 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		946635A4262DE4CB00F848B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438EA22BB9E66859A696D15E /* Pods-Promobit-Contatos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +601,7 @@
 		};
 		946635A5262DE4CB00F848B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490421A97565A22188D30B49 /* Pods-Promobit-Contatos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +620,7 @@
 		};
 		946635A7262DE4CB00F848B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A728020C3D896FD704E554F /* Pods-Promobit-ContatosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		946635A8262DE4CB00F848B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93430D638CCB5022DBFEDB21 /* Pods-Promobit-ContatosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		946635AA262DE4CB00F848B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F6F290F63A857D60EB2039 /* Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		946635AB262DE4CB00F848B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D7B2E4022FD3ACA5E8566D /* Pods-Promobit-Contatos-Promobit-ContatosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
