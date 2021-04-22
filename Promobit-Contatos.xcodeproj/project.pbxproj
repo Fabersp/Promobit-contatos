@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		06D5E2E3A8CB5B970886216A /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58242E67B6E007C5730DD58 /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework */; };
 		29B8E9CDC6B1CD9FD1F08F28 /* Pods_Promobit_ContatosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68CF261EC9C6846D3CDEB9A9 /* Pods_Promobit_ContatosTests.framework */; };
+		94594DBE2631C0DE00978259 /* Inserir+AlterarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94594DBD2631C0DE00978259 /* Inserir+AlterarViewController.swift */; };
+		94594DC32631D05400978259 /* InsereAltera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94594DC22631D05400978259 /* InsereAltera.storyboard */; };
 		9466357D262DE4C200F848B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466357C262DE4C200F848B8 /* AppDelegate.swift */; };
 		9466357F262DE4C200F848B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466357E262DE4C200F848B8 /* SceneDelegate.swift */; };
 		94663581262DE4C200F848B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94663580262DE4C200F848B8 /* ViewController.swift */; };
@@ -17,6 +19,14 @@
 		94663589262DE4CB00F848B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94663587262DE4CB00F848B8 /* LaunchScreen.storyboard */; };
 		94663594262DE4CB00F848B8 /* Promobit_ContatosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94663593262DE4CB00F848B8 /* Promobit_ContatosTests.swift */; };
 		9466359F262DE4CB00F848B8 /* Promobit_ContatosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466359E262DE4CB00F848B8 /* Promobit_ContatosUITests.swift */; };
+		94663682262E53F600F848B8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466367F262E53F500F848B8 /* SWRevealViewController.m */; };
+		94663683262E53F600F848B8 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94663680262E53F500F848B8 /* SidebarViewController.m */; };
+		94663695262E693600F848B8 /* ContatosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94663694262E693600F848B8 /* ContatosCell.swift */; };
+		9466378E262FAE9300F848B8 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466378D262FAE9300F848B8 /* RestAPI.swift */; };
+		946637932630441F00F848B8 /* ContatoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946637922630441F00F848B8 /* ContatoModel.swift */; };
+		946637A4263088B600F848B8 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946637A3263088B600F848B8 /* product.swift */; };
+		94879E712631EA5B00E13731 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 94879E702631EA5B00E13731 /* Reachability.m */; };
+		94879E792631EAB300E13731 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94879E782631EAB300E13731 /* Internet.swift */; };
 		BD62543F0BE3178E8FED4341 /* Pods_Promobit_Contatos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA68691A89D56B7AF89F419 /* Pods_Promobit_Contatos.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +55,8 @@
 		6A728020C3D896FD704E554F /* Pods-Promobit-ContatosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-ContatosTests.debug.xcconfig"; path = "Target Support Files/Pods-Promobit-ContatosTests/Pods-Promobit-ContatosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BA68691A89D56B7AF89F419 /* Pods_Promobit_Contatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promobit_Contatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93430D638CCB5022DBFEDB21 /* Pods-Promobit-ContatosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-ContatosTests.release.xcconfig"; path = "Target Support Files/Pods-Promobit-ContatosTests/Pods-Promobit-ContatosTests.release.xcconfig"; sourceTree = "<group>"; };
+		94594DBD2631C0DE00978259 /* Inserir+AlterarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inserir+AlterarViewController.swift"; sourceTree = "<group>"; };
+		94594DC22631D05400978259 /* InsereAltera.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InsereAltera.storyboard; sourceTree = "<group>"; };
 		94663579262DE4C200F848B8 /* Promobit-Contatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Promobit-Contatos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466357C262DE4C200F848B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9466357E262DE4C200F848B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +71,18 @@
 		9466359A262DE4CB00F848B8 /* Promobit-ContatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Promobit-ContatosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466359E262DE4CB00F848B8 /* Promobit_ContatosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promobit_ContatosUITests.swift; sourceTree = "<group>"; };
 		946635A0262DE4CB00F848B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9466367D262E53F400F848B8 /* Promobit-Contatos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Promobit-Contatos-Bridging-Header.h"; sourceTree = "<group>"; };
+		9466367E262E53F500F848B8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9466367F262E53F500F848B8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		94663680262E53F500F848B8 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		94663681262E53F600F848B8 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		94663694262E693600F848B8 /* ContatosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosCell.swift; sourceTree = "<group>"; };
+		9466378D262FAE9300F848B8 /* RestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPI.swift; sourceTree = "<group>"; };
+		946637922630441F00F848B8 /* ContatoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoModel.swift; sourceTree = "<group>"; };
+		946637A3263088B600F848B8 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		94879E6F2631EA5B00E13731 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		94879E702631EA5B00E13731 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		94879E782631EAB300E13731 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		C58242E67B6E007C5730DD58 /* Pods_Promobit_Contatos_Promobit_ContatosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Promobit_Contatos_Promobit_ContatosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F6F290F63A857D60EB2039 /* Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Promobit-Contatos-Promobit-ContatosUITests/Pods-Promobit-Contatos-Promobit-ContatosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,13 +140,16 @@
 		9466357B262DE4C200F848B8 /* Promobit-Contatos */ = {
 			isa = PBXGroup;
 			children = (
-				9466357C262DE4C200F848B8 /* AppDelegate.swift */,
-				9466357E262DE4C200F848B8 /* SceneDelegate.swift */,
-				94663580262DE4C200F848B8 /* ViewController.swift */,
-				94663582262DE4C200F848B8 /* Main.storyboard */,
+				94879E6E2631EA4A00E13731 /* Internet */,
+				94663774262F9D7500F848B8 /* Delegates */,
+				94663775262F9DA600F848B8 /* Models */,
+				94663773262F9D5100F848B8 /* Views */,
+				94663776262F9DB600F848B8 /* Controllers */,
+				9466367C262E53D800F848B8 /* Drawer */,
+				94663778262F9DF900F848B8 /* Services */,
 				94663585262DE4CB00F848B8 /* Assets.xcassets */,
-				94663587262DE4CB00F848B8 /* LaunchScreen.storyboard */,
 				9466358A262DE4CB00F848B8 /* Info.plist */,
+				946637A3263088B600F848B8 /* product.swift */,
 			);
 			path = "Promobit-Contatos";
 			sourceTree = "<group>";
@@ -145,6 +172,73 @@
 			path = "Promobit-ContatosUITests";
 			sourceTree = "<group>";
 		};
+		9466367C262E53D800F848B8 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				94663681262E53F600F848B8 /* SidebarViewController.h */,
+				94663680262E53F500F848B8 /* SidebarViewController.m */,
+				9466367E262E53F500F848B8 /* SWRevealViewController.h */,
+				9466367F262E53F500F848B8 /* SWRevealViewController.m */,
+				9466367D262E53F400F848B8 /* Promobit-Contatos-Bridging-Header.h */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		94663773262F9D5100F848B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94663587262DE4CB00F848B8 /* LaunchScreen.storyboard */,
+				94663582262DE4C200F848B8 /* Main.storyboard */,
+				94594DC22631D05400978259 /* InsereAltera.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94663774262F9D7500F848B8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				9466357E262DE4C200F848B8 /* SceneDelegate.swift */,
+				9466357C262DE4C200F848B8 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		94663775262F9DA600F848B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				946637922630441F00F848B8 /* ContatoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94663776262F9DB600F848B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				94663580262DE4C200F848B8 /* ViewController.swift */,
+				94663694262E693600F848B8 /* ContatosCell.swift */,
+				94594DBD2631C0DE00978259 /* Inserir+AlterarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		94663778262F9DF900F848B8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9466378D262FAE9300F848B8 /* RestAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		94879E6E2631EA4A00E13731 /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				94879E6F2631EA5B00E13731 /* Reachability.h */,
+				94879E702631EA5B00E13731 /* Reachability.m */,
+				94879E782631EAB300E13731 /* Internet.swift */,
+			);
+			path = Internet;
+			sourceTree = "<group>";
+		};
 		C3B2DA974C051733E7A24256 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +259,6 @@
 				6A728020C3D896FD704E554F /* Pods-Promobit-ContatosTests.debug.xcconfig */,
 				93430D638CCB5022DBFEDB21 /* Pods-Promobit-ContatosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -241,6 +334,7 @@
 				TargetAttributes = {
 					94663578262DE4C200F848B8 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					9466358E262DE4CB00F848B8 = {
 						CreatedOnToolsVersion = 12.4;
@@ -279,6 +373,7 @@
 			files = (
 				94663589262DE4CB00F848B8 /* LaunchScreen.storyboard in Resources */,
 				94663586262DE4CB00F848B8 /* Assets.xcassets in Resources */,
+				94594DC32631D05400978259 /* InsereAltera.storyboard in Resources */,
 				94663584262DE4C200F848B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,9 +502,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9466378E262FAE9300F848B8 /* RestAPI.swift in Sources */,
+				94663683262E53F600F848B8 /* SidebarViewController.m in Sources */,
 				94663581262DE4C200F848B8 /* ViewController.swift in Sources */,
+				94879E712631EA5B00E13731 /* Reachability.m in Sources */,
+				946637A4263088B600F848B8 /* product.swift in Sources */,
 				9466357D262DE4C200F848B8 /* AppDelegate.swift in Sources */,
+				94879E792631EAB300E13731 /* Internet.swift in Sources */,
+				94594DBE2631C0DE00978259 /* Inserir+AlterarViewController.swift in Sources */,
+				946637932630441F00F848B8 /* ContatoModel.swift in Sources */,
 				9466357F262DE4C200F848B8 /* SceneDelegate.swift in Sources */,
+				94663695262E693600F848B8 /* ContatosCell.swift in Sources */,
+				94663682262E53F600F848B8 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +690,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Promobit-Contatos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -594,6 +699,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-Contatos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Promobit-Contatos/Drawer/Promobit-Contatos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -605,6 +712,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Promobit-Contatos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,6 +721,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "FabricioAguiar.Promobit-Contatos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Promobit-Contatos/Drawer/Promobit-Contatos-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

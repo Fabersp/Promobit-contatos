@@ -6,7 +6,6 @@ target 'Promobit-Contatos' do
   use_frameworks!
   pod 'SwiftyJSON'
   pod 'Alamofire'
-  pod 'AlamofireImage', '~> 4.1'
 
   # Pods for Promobit-Contatos
 
