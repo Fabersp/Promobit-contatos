@@ -8,7 +8,6 @@
 import Foundation
 import Alamofire
 
-
 class RestAPI {
     
     static func getListaContatos(ordenacao: String, callback: @escaping (DataResponse<Any, AFError>) -> ()) {

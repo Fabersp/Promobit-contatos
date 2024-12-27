@@ -30,8 +30,6 @@ class Inserir_AlterarViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.leftBarButtonItem?.tintColor = .white
-        navigationItem.rightBarButtonItem?.tintColor = .white
         ImgAvatar?.layer.borderWidth = 0.5
         ImgAvatar?.layer.masksToBounds = false
         ImgAvatar?.layer.borderColor = UIColor.black.cgColor
@@ -73,8 +71,6 @@ class Inserir_AlterarViewController: UIViewController {
     }
     
     func UpdateGListComent() {
-        
-        
         let param = ["name":"\(lbNome.text ?? "")",
                      "company":"\(lbEmpresa.text ?? "")",
                      "email":"\(lbEmail.text ?? "")",

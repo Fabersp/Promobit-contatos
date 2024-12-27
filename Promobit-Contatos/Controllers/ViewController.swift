@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import MaterialComponents.MaterialButtons
-
 
 class ViewController: UIViewController {
 
@@ -17,11 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         criarBotaoAdd ()
-        
-        navigationItem.leftBarButtonItem?.tintColor = .white
-        navigationItem.rightBarButtonItem?.tintColor = .white
-        
-        if Internet.isConnected(){
+    
+        if Internet.isConnected() {
             getListaContatos(orndenacao: "sortBy=name&order=asc")
         } else {
             msgInternet()
@@ -37,7 +32,7 @@ class ViewController: UIViewController {
         
     }
     
-    func criarBotaoAdd (){
+    func criarBotaoAdd () {
         let buttonImage = UIImage(named: "Add")
         let button = UIButton(type: UIButton.ButtonType.custom)
         button.frame = CGRect(x: 0.0, y: 0.0, width: 60.0, height: 60.0);
